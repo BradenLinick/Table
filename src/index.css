@@ -5,9 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 20px 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table, tr, td, th {
+  outline: 1px solid black;
+}
+
+th {
+  padding: 1rem;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.table-holster {
+  display: flex;
 }
